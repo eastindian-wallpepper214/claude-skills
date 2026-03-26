@@ -1,0 +1,581 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-03-26",
+  "skills": [
+    {
+      "name": "csv-analyzer",
+      "description": "Analyze CSV data files with statistical analysis, trend detection, and outlier identification",
+      "category": "data-analysis",
+      "tags": [
+        "csv",
+        "statistics",
+        "data",
+        "trends",
+        "outliers",
+        "analysis"
+      ],
+      "path": "skills/data-analysis/csv-analyzer.md"
+    },
+    {
+      "name": "data-visualizer",
+      "description": "Create data visualizations using Python matplotlib or JavaScript Chart.js from raw data",
+      "category": "data-analysis",
+      "tags": [
+        "visualization",
+        "charts",
+        "graphs",
+        "matplotlib",
+        "chartjs"
+      ],
+      "path": "skills/data-analysis/data-visualizer.md"
+    },
+    {
+      "name": "report-builder",
+      "description": "Build business reports with executive summaries, KPI dashboards, and trend analysis",
+      "category": "data-analysis",
+      "tags": [
+        "reports",
+        "business",
+        "kpi",
+        "dashboard",
+        "executive-summary"
+      ],
+      "path": "skills/data-analysis/report-builder.md"
+    },
+    {
+      "name": "sql-generator",
+      "description": "Generate SQL queries from natural language with support for complex joins, aggregations, and window functions",
+      "category": "data-analysis",
+      "tags": [
+        "sql",
+        "database",
+        "queries",
+        "analytics",
+        "data"
+      ],
+      "path": "skills/data-analysis/sql-generator.md"
+    },
+    {
+      "name": "color-palette",
+      "description": "Generate harmonious color palettes with CSS variables and WCAG contrast ratio checking",
+      "category": "design",
+      "tags": [
+        "color",
+        "palette",
+        "design",
+        "css",
+        "wcag",
+        "branding"
+      ],
+      "path": "skills/design/color-palette.md"
+    },
+    {
+      "name": "component-library",
+      "description": "Scaffold React or Vue UI component libraries with types, props, stories, and styling",
+      "category": "design",
+      "tags": [
+        "components",
+        "react",
+        "vue",
+        "ui-library",
+        "storybook",
+        "typescript"
+      ],
+      "path": "skills/design/component-library.md"
+    },
+    {
+      "name": "ui-review",
+      "description": "Review UI/UX for accessibility, visual hierarchy, spacing, contrast, and responsiveness",
+      "category": "design",
+      "tags": [
+        "ui",
+        "ux",
+        "accessibility",
+        "design-review",
+        "wcag"
+      ],
+      "path": "skills/design/ui-review.md"
+    },
+    {
+      "name": "api-design",
+      "description": "REST API design with OpenAPI spec, error handling, pagination, and versioning",
+      "category": "development",
+      "tags": [
+        "api",
+        "rest",
+        "openapi",
+        "endpoints",
+        "http"
+      ],
+      "path": "skills/development/api-design.md"
+    },
+    {
+      "name": "code-review",
+      "description": "Thorough code review checking bugs, security, performance, readability, and SOLID principles",
+      "category": "development",
+      "tags": [
+        "review",
+        "quality",
+        "security",
+        "solid",
+        "best-practices"
+      ],
+      "path": "skills/development/code-review.md"
+    },
+    {
+      "name": "debug",
+      "description": "Systematic debugging using hypothesis-driven investigation and root cause analysis",
+      "category": "development",
+      "tags": [
+        "debugging",
+        "troubleshooting",
+        "root-cause",
+        "diagnostics",
+        "logging"
+      ],
+      "path": "skills/development/debug.md"
+    },
+    {
+      "name": "docker-setup",
+      "description": "Dockerfile and docker-compose setup with multi-stage builds, health checks, and dev/prod configs",
+      "category": "development",
+      "tags": [
+        "docker",
+        "containers",
+        "docker-compose",
+        "devops",
+        "deployment"
+      ],
+      "path": "skills/development/docker-setup.md"
+    },
+    {
+      "name": "git-cleanup",
+      "description": "Git repository cleanup for large files, stale branches, commit hygiene, and gitignore",
+      "category": "development",
+      "tags": [
+        "git",
+        "cleanup",
+        "branches",
+        "gitignore",
+        "repository"
+      ],
+      "path": "skills/development/git-cleanup.md"
+    },
+    {
+      "name": "performance-audit",
+      "description": "Performance audit for N+1 queries, memory leaks, blocking ops, and bundle size issues",
+      "category": "development",
+      "tags": [
+        "performance",
+        "optimization",
+        "profiling",
+        "memory",
+        "bundle-size"
+      ],
+      "path": "skills/development/performance-audit.md"
+    },
+    {
+      "name": "refactor",
+      "description": "Identify code smells and apply refactoring patterns while preserving behavior",
+      "category": "development",
+      "tags": [
+        "refactoring",
+        "code-smells",
+        "clean-code",
+        "design-patterns",
+        "maintainability"
+      ],
+      "path": "skills/development/refactor.md"
+    },
+    {
+      "name": "security-scan",
+      "description": "Security vulnerability scanner for OWASP Top 10, secrets, injection, and dependency risks",
+      "category": "development",
+      "tags": [
+        "security",
+        "owasp",
+        "vulnerabilities",
+        "xss",
+        "injection"
+      ],
+      "path": "skills/development/security-scan.md"
+    },
+    {
+      "name": "tdd-london",
+      "description": "TDD London School (mock-first) with red-green-refactor cycle and dependency injection",
+      "category": "development",
+      "tags": [
+        "tdd",
+        "testing",
+        "mocking",
+        "dependency-injection",
+        "london-school"
+      ],
+      "path": "skills/development/tdd-london.md"
+    },
+    {
+      "name": "typescript-migrate",
+      "description": "Incremental JavaScript to TypeScript migration with proper types, interfaces, and config",
+      "category": "development",
+      "tags": [
+        "typescript",
+        "migration",
+        "types",
+        "interfaces",
+        "tsconfig"
+      ],
+      "path": "skills/development/typescript-migrate.md"
+    },
+    {
+      "name": "ci-cd-setup",
+      "description": "Set up CI/CD pipelines with GitHub Actions for testing, building, and deploying",
+      "category": "devops",
+      "tags": [
+        "ci-cd",
+        "github-actions",
+        "deployment",
+        "testing",
+        "automation"
+      ],
+      "path": "skills/devops/ci-cd-setup.md"
+    },
+    {
+      "name": "monitoring-setup",
+      "description": "Set up application monitoring with health checks, error tracking, metrics, and alerting",
+      "category": "devops",
+      "tags": [
+        "monitoring",
+        "observability",
+        "prometheus",
+        "grafana",
+        "alerting",
+        "health-checks"
+      ],
+      "path": "skills/devops/monitoring-setup.md"
+    },
+    {
+      "name": "nginx-config",
+      "description": "Generate Nginx configurations for reverse proxy, SSL, caching, rate limiting, and security",
+      "category": "devops",
+      "tags": [
+        "nginx",
+        "reverse-proxy",
+        "ssl",
+        "security",
+        "web-server",
+        "caching"
+      ],
+      "path": "skills/devops/nginx-config.md"
+    },
+    {
+      "name": "ad-creative",
+      "description": "Ad creative generator for Google Ads, Meta Ads, and LinkedIn Ads with RSA variations and A/B variants",
+      "category": "marketing",
+      "tags": [
+        "advertising",
+        "google-ads",
+        "meta-ads",
+        "linkedin-ads",
+        "ppc",
+        "creative"
+      ],
+      "path": "skills/marketing/ad-creative.md"
+    },
+    {
+      "name": "competitor-analysis",
+      "description": "Competitive analysis framework covering positioning, pricing, features, messaging, SEO, and SWOT output",
+      "category": "marketing",
+      "tags": [
+        "competitor-analysis",
+        "competitive-intelligence",
+        "swot",
+        "positioning",
+        "market-research"
+      ],
+      "path": "skills/marketing/competitor-analysis.md"
+    },
+    {
+      "name": "content-strategy",
+      "description": "Content strategy planning with topic clusters, keyword mapping, and a 90-day editorial calendar",
+      "category": "marketing",
+      "tags": [
+        "content-strategy",
+        "editorial-calendar",
+        "topic-clusters",
+        "keyword-mapping",
+        "seo-content"
+      ],
+      "path": "skills/marketing/content-strategy.md"
+    },
+    {
+      "name": "copywriting",
+      "description": "Marketing copywriting using AIDA framework for landing pages, homepages, and product pages",
+      "category": "marketing",
+      "tags": [
+        "copywriting",
+        "landing-page",
+        "aida",
+        "conversion",
+        "headlines"
+      ],
+      "path": "skills/marketing/copywriting.md"
+    },
+    {
+      "name": "email-sequence",
+      "description": "Email drip campaign builder for welcome series, nurture sequences, and re-engagement flows",
+      "category": "marketing",
+      "tags": [
+        "email-marketing",
+        "drip-campaign",
+        "automation",
+        "nurture",
+        "retention"
+      ],
+      "path": "skills/marketing/email-sequence.md"
+    },
+    {
+      "name": "landing-page-cro",
+      "description": "Landing page conversion rate optimization analyzing structure, headlines, CTAs, social proof, and friction points",
+      "category": "marketing",
+      "tags": [
+        "cro",
+        "conversion-optimization",
+        "landing-page",
+        "ab-testing",
+        "ux"
+      ],
+      "path": "skills/marketing/landing-page-cro.md"
+    },
+    {
+      "name": "launch-strategy",
+      "description": "Product launch playbook covering pre-launch, launch day, and post-launch with channel strategy and metrics",
+      "category": "marketing",
+      "tags": [
+        "product-launch",
+        "go-to-market",
+        "launch-plan",
+        "gtm",
+        "campaign"
+      ],
+      "path": "skills/marketing/launch-strategy.md"
+    },
+    {
+      "name": "pricing-strategy",
+      "description": "Pricing strategy advisor analyzing value metrics, competitive positioning, packaging, and willingness-to-pay",
+      "category": "marketing",
+      "tags": [
+        "pricing",
+        "strategy",
+        "packaging",
+        "monetization",
+        "value-metrics"
+      ],
+      "path": "skills/marketing/pricing-strategy.md"
+    },
+    {
+      "name": "seo-audit",
+      "description": "Comprehensive technical and on-page SEO audit with prioritized action items",
+      "category": "marketing",
+      "tags": [
+        "seo",
+        "audit",
+        "technical-seo",
+        "on-page",
+        "core-web-vitals"
+      ],
+      "path": "skills/marketing/seo-audit.md"
+    },
+    {
+      "name": "social-content",
+      "description": "Social media content creator for LinkedIn, Twitter/X, and Instagram with platform-specific optimization",
+      "category": "marketing",
+      "tags": [
+        "social-media",
+        "linkedin",
+        "twitter",
+        "instagram",
+        "content-repurposing"
+      ],
+      "path": "skills/marketing/social-content.md"
+    },
+    {
+      "name": "document-analyzer",
+      "description": "Analyze PDFs and documents to extract key information, summarize, and identify action items",
+      "category": "productivity",
+      "tags": [
+        "documents",
+        "pdf",
+        "analysis",
+        "summary",
+        "extraction"
+      ],
+      "path": "skills/productivity/document-analyzer.md"
+    },
+    {
+      "name": "email-writer",
+      "description": "Compose professional emails for cold outreach, follow-ups, negotiations, and updates",
+      "category": "productivity",
+      "tags": [
+        "email",
+        "communication",
+        "writing",
+        "outreach",
+        "business"
+      ],
+      "path": "skills/productivity/email-writer.md"
+    },
+    {
+      "name": "meeting-notes",
+      "description": "Process raw meeting notes or transcripts into structured summaries with action items",
+      "category": "productivity",
+      "tags": [
+        "meetings",
+        "notes",
+        "action-items",
+        "summaries",
+        "transcripts"
+      ],
+      "path": "skills/productivity/meeting-notes.md"
+    },
+    {
+      "name": "ppt-generator",
+      "description": "Generate professional PowerPoint presentations using pptxgenjs with Bain consulting style",
+      "category": "productivity",
+      "tags": [
+        "powerpoint",
+        "presentations",
+        "consulting",
+        "charts",
+        "pptxgenjs"
+      ],
+      "path": "skills/productivity/ppt-generator.md"
+    },
+    {
+      "name": "project-planner",
+      "description": "Break down projects into milestones, tasks, dependencies, and timeline estimates",
+      "category": "productivity",
+      "tags": [
+        "project-management",
+        "planning",
+        "milestones",
+        "gantt",
+        "estimation"
+      ],
+      "path": "skills/productivity/project-planner.md"
+    }
+  ],
+  "packs": [
+    {
+      "name": "marketing",
+      "description": "All marketing skills — SEO, copy, ads, email, social, CRO",
+      "skills": [
+        "ad-creative",
+        "competitor-analysis",
+        "content-strategy",
+        "copywriting",
+        "email-sequence",
+        "landing-page-cro",
+        "launch-strategy",
+        "pricing-strategy",
+        "seo-audit",
+        "social-content"
+      ]
+    },
+    {
+      "name": "development",
+      "description": "All development skills — code review, TDD, security, debugging",
+      "skills": [
+        "api-design",
+        "code-review",
+        "debug",
+        "docker-setup",
+        "git-cleanup",
+        "performance-audit",
+        "refactor",
+        "security-scan",
+        "tdd-london",
+        "typescript-migrate"
+      ]
+    },
+    {
+      "name": "productivity",
+      "description": "All productivity skills — PPT, emails, planning, documents",
+      "skills": [
+        "document-analyzer",
+        "email-writer",
+        "meeting-notes",
+        "ppt-generator",
+        "project-planner"
+      ]
+    },
+    {
+      "name": "data",
+      "description": "All data analysis skills — CSV, SQL, visualization, reports",
+      "skills": [
+        "csv-analyzer",
+        "data-visualizer",
+        "report-builder",
+        "sql-generator"
+      ]
+    },
+    {
+      "name": "design",
+      "description": "All design skills — UI review, colors, components",
+      "skills": [
+        "color-palette",
+        "component-library",
+        "ui-review"
+      ]
+    },
+    {
+      "name": "devops",
+      "description": "All DevOps skills — CI/CD, nginx, monitoring",
+      "skills": [
+        "ci-cd-setup",
+        "monitoring-setup",
+        "nginx-config"
+      ]
+    },
+    {
+      "name": "all",
+      "description": "Every skill in the catalog",
+      "skills": [
+        "csv-analyzer",
+        "data-visualizer",
+        "report-builder",
+        "sql-generator",
+        "color-palette",
+        "component-library",
+        "ui-review",
+        "api-design",
+        "code-review",
+        "debug",
+        "docker-setup",
+        "git-cleanup",
+        "performance-audit",
+        "refactor",
+        "security-scan",
+        "tdd-london",
+        "typescript-migrate",
+        "ci-cd-setup",
+        "monitoring-setup",
+        "nginx-config",
+        "ad-creative",
+        "competitor-analysis",
+        "content-strategy",
+        "copywriting",
+        "email-sequence",
+        "landing-page-cro",
+        "launch-strategy",
+        "pricing-strategy",
+        "seo-audit",
+        "social-content",
+        "document-analyzer",
+        "email-writer",
+        "meeting-notes",
+        "ppt-generator",
+        "project-planner"
+      ]
+    }
+  ]
+}

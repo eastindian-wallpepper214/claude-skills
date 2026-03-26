@@ -1,0 +1,31 @@
+{
+  "name": "claude-skills",
+  "version": "1.0.0",
+  "description": "50+ plug-and-play skills for Claude Code. Install in one command.",
+  "main": "cli/index.js",
+  "bin": {
+    "claude-skills": "cli/index.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "ai-skills",
+    "cli",
+    "developer-tools",
+    "marketing",
+    "seo",
+    "code-review",
+    "productivity"
+  ],
+  "author": "asina",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asina/claude-skills"
+  },
+  "homepage": "https://github.com/asina/claude-skills#readme",
+  "engines": {
+    "node": ">=14"
+  }
+}
