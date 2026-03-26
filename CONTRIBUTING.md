@@ -14,6 +14,7 @@ Thanks for wanting to contribute! Here's how to add your own skills.
 | Data Analysis | `skills/data-analysis/` | CSV, SQL, visualization, reporting |
 | Design | `skills/design/` | UI/UX, colors, components, accessibility |
 | DevOps | `skills/devops/` | CI/CD, Docker, monitoring, infrastructure |
+| System | `skills/system/` | OS optimization, performance tuning, cleanup, maintenance |
 
 Need a new category? Open an issue first.
 

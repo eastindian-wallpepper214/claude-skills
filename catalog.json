@@ -462,6 +462,19 @@
         "estimation"
       ],
       "path": "skills/productivity/project-planner.md"
+    },
+    {
+      "name": "system-optimize",
+      "description": "Windows system performance optimizer — disk, services, startup, power, memory, network, privacy",
+      "category": "system",
+      "tags": [
+        "windows",
+        "optimization",
+        "performance",
+        "cleanup",
+        "system-tune"
+      ],
+      "path": "skills/system/system-optimize.md"
     }
   ],
   "packs": [
@@ -537,6 +550,13 @@
       ]
     },
     {
+      "name": "system",
+      "description": "System optimization and maintenance skills",
+      "skills": [
+        "system-optimize"
+      ]
+    },
+    {
       "name": "all",
       "description": "Every skill in the catalog",
       "skills": [
@@ -574,7 +594,8 @@
         "email-writer",
         "meeting-notes",
         "ppt-generator",
-        "project-planner"
+        "project-planner",
+        "system-optimize"
       ]
     }
   ]

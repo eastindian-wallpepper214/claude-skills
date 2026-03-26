@@ -1,6 +1,6 @@
 # ⚡ Claude Skills
 
-> **50+ plug-and-play skills for Claude Code. Install in one command.**
+> **36+ plug-and-play skills for Claude Code. Install in one command.**
 
 ```bash
 npx claude-skills install seo-audit
@@ -29,7 +29,7 @@ npx claude-skills install code-review
 # Install all marketing skills (10 skills)
 npx claude-skills install-pack marketing
 
-# Install everything (35+ skills)
+# Install everything (36+ skills)
 npx claude-skills install-pack all
 
 # Browse available skills
@@ -115,6 +115,12 @@ Then in Claude Code, use the skill:
 | `nginx-config` | Nginx config generator — reverse proxy, SSL, caching, rate limits |
 | `monitoring-setup` | App monitoring — health checks, error tracking, alerting rules |
 
+### System (1 skill)
+
+| Skill | Description |
+|-------|-------------|
+| `system-optimize` | Windows performance optimizer — disk, services, startup, power, memory, network, privacy tuning with 11 modes |
+
 ---
 
 ## Skill Packs
@@ -129,7 +135,8 @@ Install multiple skills at once:
 | `data` | 4 data analysis skills | `npx claude-skills install-pack data` |
 | `design` | 3 design skills | `npx claude-skills install-pack design` |
 | `devops` | 3 devops skills | `npx claude-skills install-pack devops` |
-| `all` | All 35+ skills | `npx claude-skills install-pack all` |
+| `system` | 1 system skill | `npx claude-skills install-pack system` |
+| `all` | All 36+ skills | `npx claude-skills install-pack all` |
 
 ---
 
