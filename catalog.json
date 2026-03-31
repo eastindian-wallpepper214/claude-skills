@@ -1,602 +1,1151 @@
 {
-  "version": "1.0.0",
-  "updated": "2026-03-26",
+  "version": "2.0.0",
+  "updated": "2026-04-01",
   "skills": [
     {
       "name": "csv-analyzer",
       "description": "Analyze CSV data files with statistical analysis, trend detection, and outlier identification",
       "category": "data-analysis",
-      "tags": [
-        "csv",
-        "statistics",
-        "data",
-        "trends",
-        "outliers",
-        "analysis"
-      ],
+      "tags": ["csv", "statistics", "data", "trends", "outliers", "analysis"],
       "path": "skills/data-analysis/csv-analyzer.md"
     },
     {
       "name": "data-visualizer",
       "description": "Create data visualizations using Python matplotlib or JavaScript Chart.js from raw data",
       "category": "data-analysis",
-      "tags": [
-        "visualization",
-        "charts",
-        "graphs",
-        "matplotlib",
-        "chartjs"
-      ],
+      "tags": ["visualization", "charts", "graphs", "matplotlib", "chartjs"],
       "path": "skills/data-analysis/data-visualizer.md"
     },
     {
       "name": "report-builder",
       "description": "Build business reports with executive summaries, KPI dashboards, and trend analysis",
       "category": "data-analysis",
-      "tags": [
-        "reports",
-        "business",
-        "kpi",
-        "dashboard",
-        "executive-summary"
-      ],
+      "tags": ["reports", "business", "kpi", "dashboard", "executive-summary"],
       "path": "skills/data-analysis/report-builder.md"
     },
     {
       "name": "sql-generator",
       "description": "Generate SQL queries from natural language with support for complex joins, aggregations, and window functions",
       "category": "data-analysis",
-      "tags": [
-        "sql",
-        "database",
-        "queries",
-        "analytics",
-        "data"
-      ],
+      "tags": ["sql", "database", "queries", "analytics", "data"],
       "path": "skills/data-analysis/sql-generator.md"
     },
     {
       "name": "color-palette",
       "description": "Generate harmonious color palettes with CSS variables and WCAG contrast ratio checking",
       "category": "design",
-      "tags": [
-        "color",
-        "palette",
-        "design",
-        "css",
-        "wcag",
-        "branding"
-      ],
+      "tags": ["color", "palette", "design", "css", "wcag", "branding"],
       "path": "skills/design/color-palette.md"
     },
     {
       "name": "component-library",
       "description": "Scaffold React or Vue UI component libraries with types, props, stories, and styling",
       "category": "design",
-      "tags": [
-        "components",
-        "react",
-        "vue",
-        "ui-library",
-        "storybook",
-        "typescript"
-      ],
+      "tags": ["components", "react", "vue", "ui-library", "storybook", "typescript"],
       "path": "skills/design/component-library.md"
     },
     {
       "name": "ui-review",
       "description": "Review UI/UX for accessibility, visual hierarchy, spacing, contrast, and responsiveness",
       "category": "design",
-      "tags": [
-        "ui",
-        "ux",
-        "accessibility",
-        "design-review",
-        "wcag"
-      ],
+      "tags": ["ui", "ux", "accessibility", "design-review", "wcag"],
       "path": "skills/design/ui-review.md"
     },
     {
       "name": "api-design",
       "description": "REST API design with OpenAPI spec, error handling, pagination, and versioning",
       "category": "development",
-      "tags": [
-        "api",
-        "rest",
-        "openapi",
-        "endpoints",
-        "http"
-      ],
+      "tags": ["api", "rest", "openapi", "endpoints", "http"],
       "path": "skills/development/api-design.md"
+    },
+    {
+      "name": "browser-automation",
+      "description": "Web browser automation with AI-optimized snapshots for claude-flow agents",
+      "category": "development",
+      "tags": ["browser", "automation", "web-scraping", "testing", "playwright"],
+      "path": "skills/development/browser-automation.md"
     },
     {
       "name": "code-review",
       "description": "Thorough code review checking bugs, security, performance, readability, and SOLID principles",
       "category": "development",
-      "tags": [
-        "review",
-        "quality",
-        "security",
-        "solid",
-        "best-practices"
-      ],
+      "tags": ["review", "quality", "security", "solid", "best-practices"],
       "path": "skills/development/code-review.md"
     },
     {
       "name": "debug",
       "description": "Systematic debugging using hypothesis-driven investigation and root cause analysis",
       "category": "development",
-      "tags": [
-        "debugging",
-        "troubleshooting",
-        "root-cause",
-        "diagnostics",
-        "logging"
-      ],
+      "tags": ["debugging", "troubleshooting", "root-cause", "diagnostics", "logging"],
       "path": "skills/development/debug.md"
     },
     {
       "name": "docker-setup",
       "description": "Dockerfile and docker-compose setup with multi-stage builds, health checks, and dev/prod configs",
       "category": "development",
-      "tags": [
-        "docker",
-        "containers",
-        "docker-compose",
-        "devops",
-        "deployment"
-      ],
+      "tags": ["docker", "containers", "docker-compose", "devops", "deployment"],
       "path": "skills/development/docker-setup.md"
     },
     {
       "name": "git-cleanup",
       "description": "Git repository cleanup for large files, stale branches, commit hygiene, and gitignore",
       "category": "development",
-      "tags": [
-        "git",
-        "cleanup",
-        "branches",
-        "gitignore",
-        "repository"
-      ],
+      "tags": ["git", "cleanup", "branches", "gitignore", "repository"],
       "path": "skills/development/git-cleanup.md"
+    },
+    {
+      "name": "github-code-review",
+      "description": "Comprehensive GitHub code review with AI-powered swarm coordination across multiple files and PRs",
+      "category": "development",
+      "tags": ["github", "code-review", "swarm", "pull-request", "ai"],
+      "path": "skills/development/github-code-review.md"
+    },
+    {
+      "name": "github-multi-repo",
+      "description": "Multi-repository coordination, synchronization, and architecture management with AI swarm orchestration",
+      "category": "development",
+      "tags": ["github", "multi-repo", "monorepo", "sync", "coordination"],
+      "path": "skills/development/github-multi-repo.md"
+    },
+    {
+      "name": "github-project-management",
+      "description": "Comprehensive GitHub project management with swarm-coordinated issue tracking, project board automation, and sprint planning",
+      "category": "development",
+      "tags": ["github", "project-management", "issues", "sprints", "agile"],
+      "path": "skills/development/github-project-management.md"
+    },
+    {
+      "name": "github-release-management",
+      "description": "Automated release coordination and deployment with AI orchestration for versioning, testing, and multi-package releases",
+      "category": "development",
+      "tags": ["github", "releases", "versioning", "deployment", "changelog"],
+      "path": "skills/development/github-release-management.md"
+    },
+    {
+      "name": "github-workflow-automation",
+      "description": "Advanced GitHub Actions workflow automation with AI swarm coordination and intelligent CI/CD pipelines",
+      "category": "development",
+      "tags": ["github-actions", "ci-cd", "automation", "workflows", "devops"],
+      "path": "skills/development/github-workflow-automation.md"
+    },
+    {
+      "name": "hooks-automation",
+      "description": "Automated coordination, formatting, and learning from Claude Code operations using intelligent hooks with MCP integration",
+      "category": "development",
+      "tags": ["hooks", "automation", "claude-code", "mcp", "pre-post-task"],
+      "path": "skills/development/hooks-automation.md"
+    },
+    {
+      "name": "pair-programming",
+      "description": "AI-assisted pair programming with driver/navigator/switch modes, TDD, real-time code review, and truth-score verification",
+      "category": "development",
+      "tags": ["pair-programming", "tdd", "collaboration", "code-review", "refactoring"],
+      "path": "skills/development/pair-programming.md"
     },
     {
       "name": "performance-audit",
       "description": "Performance audit for N+1 queries, memory leaks, blocking ops, and bundle size issues",
       "category": "development",
-      "tags": [
-        "performance",
-        "optimization",
-        "profiling",
-        "memory",
-        "bundle-size"
-      ],
+      "tags": ["performance", "optimization", "profiling", "memory", "bundle-size"],
       "path": "skills/development/performance-audit.md"
     },
     {
       "name": "refactor",
       "description": "Identify code smells and apply refactoring patterns while preserving behavior",
       "category": "development",
-      "tags": [
-        "refactoring",
-        "code-smells",
-        "clean-code",
-        "design-patterns",
-        "maintainability"
-      ],
+      "tags": ["refactoring", "code-smells", "clean-code", "design-patterns", "maintainability"],
       "path": "skills/development/refactor.md"
     },
     {
       "name": "security-scan",
       "description": "Security vulnerability scanner for OWASP Top 10, secrets, injection, and dependency risks",
       "category": "development",
-      "tags": [
-        "security",
-        "owasp",
-        "vulnerabilities",
-        "xss",
-        "injection"
-      ],
+      "tags": ["security", "owasp", "vulnerabilities", "xss", "injection"],
       "path": "skills/development/security-scan.md"
+    },
+    {
+      "name": "skill-builder",
+      "description": "Create new Claude Code skills with YAML frontmatter, progressive disclosure structure, and complete directory organization",
+      "category": "development",
+      "tags": ["skill-builder", "claude-code", "skills", "yaml", "templates"],
+      "path": "skills/development/skill-builder.md"
+    },
+    {
+      "name": "sparc-methodology",
+      "description": "SPARC (Specification, Pseudocode, Architecture, Refinement, Completion) development methodology with multi-agent orchestration",
+      "category": "development",
+      "tags": ["sparc", "methodology", "tdd", "architecture", "multi-agent"],
+      "path": "skills/development/sparc-methodology.md"
+    },
+    {
+      "name": "stream-chain",
+      "description": "Stream-JSON chaining for multi-agent pipelines, data transformation, and sequential workflows",
+      "category": "development",
+      "tags": ["streaming", "pipelines", "json", "multi-agent", "data-transformation"],
+      "path": "skills/development/stream-chain.md"
     },
     {
       "name": "tdd-london",
       "description": "TDD London School (mock-first) with red-green-refactor cycle and dependency injection",
       "category": "development",
-      "tags": [
-        "tdd",
-        "testing",
-        "mocking",
-        "dependency-injection",
-        "london-school"
-      ],
+      "tags": ["tdd", "testing", "mocking", "dependency-injection", "london-school"],
       "path": "skills/development/tdd-london.md"
     },
     {
       "name": "typescript-migrate",
       "description": "Incremental JavaScript to TypeScript migration with proper types, interfaces, and config",
       "category": "development",
-      "tags": [
-        "typescript",
-        "migration",
-        "types",
-        "interfaces",
-        "tsconfig"
-      ],
+      "tags": ["typescript", "migration", "types", "interfaces", "tsconfig"],
       "path": "skills/development/typescript-migrate.md"
     },
     {
       "name": "ci-cd-setup",
       "description": "Set up CI/CD pipelines with GitHub Actions for testing, building, and deploying",
       "category": "devops",
-      "tags": [
-        "ci-cd",
-        "github-actions",
-        "deployment",
-        "testing",
-        "automation"
-      ],
+      "tags": ["ci-cd", "github-actions", "deployment", "testing", "automation"],
       "path": "skills/devops/ci-cd-setup.md"
     },
     {
       "name": "monitoring-setup",
       "description": "Set up application monitoring with health checks, error tracking, metrics, and alerting",
       "category": "devops",
-      "tags": [
-        "monitoring",
-        "observability",
-        "prometheus",
-        "grafana",
-        "alerting",
-        "health-checks"
-      ],
+      "tags": ["monitoring", "observability", "prometheus", "grafana", "alerting"],
       "path": "skills/devops/monitoring-setup.md"
     },
     {
       "name": "nginx-config",
       "description": "Generate Nginx configurations for reverse proxy, SSL, caching, rate limiting, and security",
       "category": "devops",
-      "tags": [
-        "nginx",
-        "reverse-proxy",
-        "ssl",
-        "security",
-        "web-server",
-        "caching"
-      ],
+      "tags": ["nginx", "reverse-proxy", "ssl", "security", "web-server"],
       "path": "skills/devops/nginx-config.md"
+    },
+    {
+      "name": "code-review-swarm",
+      "description": "Comprehensive code review using AI swarm coordination across security, performance, and architecture dimensions",
+      "category": "github",
+      "tags": ["github", "code-review", "swarm", "security", "architecture"],
+      "path": "skills/github/code-review-swarm.md"
+    },
+    {
+      "name": "github-code-review",
+      "description": "Focused GitHub code review workflow with automated checks, suggestions, and PR comments",
+      "category": "github",
+      "tags": ["github", "code-review", "pull-request", "automation", "quality"],
+      "path": "skills/github/code-review.md"
+    },
+    {
+      "name": "github-modes",
+      "description": "GitHub integration modes for workflow orchestration, PR management, and repository coordination with batch optimization",
+      "category": "github",
+      "tags": ["github", "workflow", "batch", "orchestration", "repository"],
+      "path": "skills/github/github-modes.md"
+    },
+    {
+      "name": "github-swarm",
+      "description": "GitHub swarm orchestration for coordinating multiple agents across repository tasks",
+      "category": "github",
+      "tags": ["github", "swarm", "multi-agent", "repository", "coordination"],
+      "path": "skills/github/github-swarm.md"
+    },
+    {
+      "name": "issue-tracker",
+      "description": "Intelligent GitHub issue management with automated tracking, progress monitoring, and team coordination",
+      "category": "github",
+      "tags": ["github", "issues", "tracking", "project-management", "automation"],
+      "path": "skills/github/issue-tracker.md"
+    },
+    {
+      "name": "issue-triage",
+      "description": "Automated GitHub issue triage — categorize, label, assign priority, and route issues to the right teams",
+      "category": "github",
+      "tags": ["github", "issues", "triage", "labels", "automation"],
+      "path": "skills/github/issue-triage.md"
+    },
+    {
+      "name": "multi-repo-swarm",
+      "description": "Cross-repository swarm orchestration for organization-wide automation and intelligent collaboration",
+      "category": "github",
+      "tags": ["github", "multi-repo", "swarm", "organization", "sync"],
+      "path": "skills/github/multi-repo-swarm.md"
+    },
+    {
+      "name": "pr-enhance",
+      "description": "Enhance pull requests with AI-generated descriptions, test plans, and reviewer suggestions",
+      "category": "github",
+      "tags": ["github", "pull-request", "ai", "description", "reviewers"],
+      "path": "skills/github/pr-enhance.md"
+    },
+    {
+      "name": "pr-manager",
+      "description": "Complete pull request lifecycle management — creation, review coordination, merge, and branch cleanup",
+      "category": "github",
+      "tags": ["github", "pull-request", "lifecycle", "merge", "automation"],
+      "path": "skills/github/pr-manager.md"
+    },
+    {
+      "name": "project-board-sync",
+      "description": "Synchronize AI swarms with GitHub Projects for visual task management, progress tracking, and team coordination",
+      "category": "github",
+      "tags": ["github", "projects", "kanban", "task-management", "sync"],
+      "path": "skills/github/project-board-sync.md"
+    },
+    {
+      "name": "release-manager",
+      "description": "Automated release coordination with versioning, changelog generation, and deployment orchestration",
+      "category": "github",
+      "tags": ["github", "releases", "versioning", "changelog", "deployment"],
+      "path": "skills/github/release-manager.md"
+    },
+    {
+      "name": "release-swarm",
+      "description": "Orchestrate complex software releases using AI swarms for changelog generation to multi-platform deployment",
+      "category": "github",
+      "tags": ["github", "release", "swarm", "deployment", "automation"],
+      "path": "skills/github/release-swarm.md"
+    },
+    {
+      "name": "repo-analyze",
+      "description": "Deep repository analysis — code quality metrics, dependency health, contributor patterns, and technical debt",
+      "category": "github",
+      "tags": ["github", "analysis", "metrics", "code-quality", "technical-debt"],
+      "path": "skills/github/repo-analyze.md"
+    },
+    {
+      "name": "repo-architect",
+      "description": "Repository structure optimization and multi-repo management for scalable project architecture",
+      "category": "github",
+      "tags": ["github", "architecture", "structure", "monorepo", "organization"],
+      "path": "skills/github/repo-architect.md"
+    },
+    {
+      "name": "swarm-issue",
+      "description": "GitHub issue-based swarm coordination — transform issues into multi-agent tasks with automatic decomposition",
+      "category": "github",
+      "tags": ["github", "issues", "swarm", "decomposition", "automation"],
+      "path": "skills/github/swarm-issue.md"
+    },
+    {
+      "name": "swarm-pr",
+      "description": "Pull request swarm management — coordinate multi-agent code review, validation, and integration workflows",
+      "category": "github",
+      "tags": ["github", "pull-request", "swarm", "review", "validation"],
+      "path": "skills/github/swarm-pr.md"
+    },
+    {
+      "name": "sync-coordinator",
+      "description": "Multi-repository synchronization for version alignment, dependency sync, and cross-package integration",
+      "category": "github",
+      "tags": ["github", "sync", "versioning", "dependencies", "coordination"],
+      "path": "skills/github/sync-coordinator.md"
+    },
+    {
+      "name": "workflow-automation",
+      "description": "GitHub Actions workflow automation with AI swarm coordination, self-healing CI/CD, and performance regression detection",
+      "category": "github",
+      "tags": ["github-actions", "workflow", "automation", "ci-cd", "swarm"],
+      "path": "skills/github/workflow-automation.md"
+    },
+    {
+      "name": "ab-test-setup",
+      "description": "Plan, design, and implement A/B tests and experiments with sample size calculation and statistical significance",
+      "category": "marketing",
+      "tags": ["ab-testing", "experimentation", "cro", "statistics", "hypothesis"],
+      "path": "skills/marketing/ab-test-setup.md"
     },
     {
       "name": "ad-creative",
       "description": "Ad creative generator for Google Ads, Meta Ads, and LinkedIn Ads with RSA variations and A/B variants",
       "category": "marketing",
-      "tags": [
-        "advertising",
-        "google-ads",
-        "meta-ads",
-        "linkedin-ads",
-        "ppc",
-        "creative"
-      ],
+      "tags": ["advertising", "google-ads", "meta-ads", "linkedin-ads", "creative"],
       "path": "skills/marketing/ad-creative.md"
+    },
+    {
+      "name": "ai-seo",
+      "description": "Optimize content for AI search engines — get cited by LLMs, appear in AI-generated answers, AEO/GEO strategies",
+      "category": "marketing",
+      "tags": ["seo", "ai-seo", "llm", "aeo", "geo", "content-optimization"],
+      "path": "skills/marketing/ai-seo.md"
+    },
+    {
+      "name": "analytics-tracking",
+      "description": "Set up and audit analytics tracking — GA4, GTM, event tracking, UTM parameters, conversion funnels",
+      "category": "marketing",
+      "tags": ["analytics", "ga4", "gtm", "tracking", "conversion", "events"],
+      "path": "skills/marketing/analytics-tracking.md"
+    },
+    {
+      "name": "churn-prevention",
+      "description": "Reduce churn with cancellation flows, save offers, failed payment recovery, and retention strategies",
+      "category": "marketing",
+      "tags": ["churn", "retention", "cancellation", "dunning", "win-back"],
+      "path": "skills/marketing/churn-prevention.md"
+    },
+    {
+      "name": "cold-email",
+      "description": "Write B2B cold emails and follow-up sequences with personalization, frameworks, and reply-driving subject lines",
+      "category": "marketing",
+      "tags": ["cold-email", "outreach", "b2b", "sequences", "personalization"],
+      "path": "skills/marketing/cold-email.md"
+    },
+    {
+      "name": "competitor-alternatives",
+      "description": "Create competitor comparison and alternative pages for SEO and sales enablement",
+      "category": "marketing",
+      "tags": ["seo", "competitor", "comparison", "alternatives", "sales-enablement"],
+      "path": "skills/marketing/competitor-alternatives.md"
     },
     {
       "name": "competitor-analysis",
       "description": "Competitive analysis framework covering positioning, pricing, features, messaging, SEO, and SWOT output",
       "category": "marketing",
-      "tags": [
-        "competitor-analysis",
-        "competitive-intelligence",
-        "swot",
-        "positioning",
-        "market-research"
-      ],
+      "tags": ["competitor-analysis", "competitive-intelligence", "swot", "positioning", "market-research"],
       "path": "skills/marketing/competitor-analysis.md"
     },
     {
       "name": "content-strategy",
       "description": "Content strategy planning with topic clusters, keyword mapping, and a 90-day editorial calendar",
       "category": "marketing",
-      "tags": [
-        "content-strategy",
-        "editorial-calendar",
-        "topic-clusters",
-        "keyword-mapping",
-        "seo-content"
-      ],
+      "tags": ["content-strategy", "editorial-calendar", "topic-clusters", "keyword-mapping", "seo"],
       "path": "skills/marketing/content-strategy.md"
+    },
+    {
+      "name": "copy-editing",
+      "description": "Edit, review, and improve marketing copy — clarity, tone, messaging consistency, and plain-English rewrites",
+      "category": "marketing",
+      "tags": ["copywriting", "editing", "tone", "messaging", "proofreading"],
+      "path": "skills/marketing/copy-editing.md"
     },
     {
       "name": "copywriting",
       "description": "Marketing copywriting using AIDA framework for landing pages, homepages, and product pages",
       "category": "marketing",
-      "tags": [
-        "copywriting",
-        "landing-page",
-        "aida",
-        "conversion",
-        "headlines"
-      ],
+      "tags": ["copywriting", "landing-page", "aida", "conversion", "headlines"],
       "path": "skills/marketing/copywriting.md"
     },
     {
       "name": "email-sequence",
       "description": "Email drip campaign builder for welcome series, nurture sequences, and re-engagement flows",
       "category": "marketing",
-      "tags": [
-        "email-marketing",
-        "drip-campaign",
-        "automation",
-        "nurture",
-        "retention"
-      ],
+      "tags": ["email-marketing", "drip-campaign", "automation", "nurture", "retention"],
       "path": "skills/marketing/email-sequence.md"
+    },
+    {
+      "name": "form-cro",
+      "description": "Optimize lead capture, contact, demo request, and checkout forms to reduce friction and increase submissions",
+      "category": "marketing",
+      "tags": ["cro", "forms", "conversion", "lead-capture", "ux"],
+      "path": "skills/marketing/form-cro.md"
+    },
+    {
+      "name": "free-tool-strategy",
+      "description": "Plan and evaluate free tools for marketing — lead generation, SEO value, viral mechanics, and monetization",
+      "category": "marketing",
+      "tags": ["free-tool", "lead-generation", "seo", "viral", "engineering-as-marketing"],
+      "path": "skills/marketing/free-tool-strategy.md"
     },
     {
       "name": "landing-page-cro",
       "description": "Landing page conversion rate optimization analyzing structure, headlines, CTAs, social proof, and friction points",
       "category": "marketing",
-      "tags": [
-        "cro",
-        "conversion-optimization",
-        "landing-page",
-        "ab-testing",
-        "ux"
-      ],
+      "tags": ["cro", "conversion-optimization", "landing-page", "ab-testing", "ux"],
       "path": "skills/marketing/landing-page-cro.md"
     },
     {
       "name": "launch-strategy",
       "description": "Product launch playbook covering pre-launch, launch day, and post-launch with channel strategy and metrics",
       "category": "marketing",
-      "tags": [
-        "product-launch",
-        "go-to-market",
-        "launch-plan",
-        "gtm",
-        "campaign"
-      ],
+      "tags": ["product-launch", "go-to-market", "launch-plan", "gtm", "campaign"],
       "path": "skills/marketing/launch-strategy.md"
+    },
+    {
+      "name": "lead-magnets",
+      "description": "Create and optimize lead magnets — ebooks, checklists, templates, tools — for email capture and lead generation",
+      "category": "marketing",
+      "tags": ["lead-magnets", "email-capture", "gated-content", "lead-generation", "downloads"],
+      "path": "skills/marketing/lead-magnets.md"
+    },
+    {
+      "name": "marketing-ideas",
+      "description": "Generate marketing ideas, growth strategies, and campaign concepts for SaaS and software products",
+      "category": "marketing",
+      "tags": ["marketing-ideas", "growth", "strategy", "brainstorming", "campaigns"],
+      "path": "skills/marketing/marketing-ideas.md"
+    },
+    {
+      "name": "marketing-psychology",
+      "description": "Apply behavioral economics, cognitive biases, and persuasion frameworks to marketing decisions",
+      "category": "marketing",
+      "tags": ["psychology", "persuasion", "behavioral-economics", "conversion", "copywriting"],
+      "path": "skills/marketing/marketing-psychology.md"
+    },
+    {
+      "name": "onboarding-cro",
+      "description": "Optimize post-signup onboarding, user activation, first-run experience, and time-to-value",
+      "category": "marketing",
+      "tags": ["onboarding", "activation", "user-experience", "retention", "saas"],
+      "path": "skills/marketing/onboarding-cro.md"
+    },
+    {
+      "name": "page-cro",
+      "description": "Optimize marketing pages — homepage, landing pages, pricing, feature pages — for higher conversion rates",
+      "category": "marketing",
+      "tags": ["cro", "conversion", "landing-page", "pricing", "optimization"],
+      "path": "skills/marketing/page-cro.md"
+    },
+    {
+      "name": "paid-ads",
+      "description": "Paid advertising strategy and optimization across Google, Meta, LinkedIn, Twitter, and other platforms",
+      "category": "marketing",
+      "tags": ["paid-ads", "ppc", "google-ads", "meta-ads", "roas"],
+      "path": "skills/marketing/paid-ads.md"
+    },
+    {
+      "name": "paywall-upgrade-cro",
+      "description": "Create and optimize in-app paywalls, upgrade screens, upsell modals, and feature gates to convert free to paid",
+      "category": "marketing",
+      "tags": ["paywall", "upgrade", "upsell", "freemium", "conversion"],
+      "path": "skills/marketing/paywall-upgrade-cro.md"
+    },
+    {
+      "name": "popup-cro",
+      "description": "Create and optimize popups, modals, exit-intent overlays, and banners for conversion and email capture",
+      "category": "marketing",
+      "tags": ["popups", "modals", "exit-intent", "email-capture", "cro"],
+      "path": "skills/marketing/popup-cro.md"
     },
     {
       "name": "pricing-strategy",
       "description": "Pricing strategy advisor analyzing value metrics, competitive positioning, packaging, and willingness-to-pay",
       "category": "marketing",
-      "tags": [
-        "pricing",
-        "strategy",
-        "packaging",
-        "monetization",
-        "value-metrics"
-      ],
+      "tags": ["pricing", "strategy", "packaging", "monetization", "value-metrics"],
       "path": "skills/marketing/pricing-strategy.md"
+    },
+    {
+      "name": "product-marketing-context",
+      "description": "Create and update product marketing context — positioning, ICP, messaging, and competitive differentiation",
+      "category": "marketing",
+      "tags": ["positioning", "icp", "messaging", "product-marketing", "differentiation"],
+      "path": "skills/marketing/product-marketing-context.md"
+    },
+    {
+      "name": "programmatic-seo",
+      "description": "Build SEO-driven pages at scale using templates and data — directory pages, location pages, comparison pages",
+      "category": "marketing",
+      "tags": ["seo", "programmatic-seo", "templates", "scale", "directory-pages"],
+      "path": "skills/marketing/programmatic-seo.md"
+    },
+    {
+      "name": "referral-program",
+      "description": "Create and optimize referral programs, affiliate programs, and word-of-mouth strategies",
+      "category": "marketing",
+      "tags": ["referral", "affiliate", "viral", "word-of-mouth", "growth"],
+      "path": "skills/marketing/referral-program.md"
+    },
+    {
+      "name": "revops",
+      "description": "Revenue operations — lead lifecycle, scoring, routing, MQL/SQL definitions, and marketing-to-sales handoff",
+      "category": "marketing",
+      "tags": ["revops", "lead-scoring", "pipeline", "mql", "sql"],
+      "path": "skills/marketing/revops.md"
+    },
+    {
+      "name": "sales-enablement",
+      "description": "Create sales collateral — pitch decks, one-pagers, objection handling docs, demo scripts, and playbooks",
+      "category": "marketing",
+      "tags": ["sales-enablement", "pitch-deck", "objection-handling", "playbook", "demo"],
+      "path": "skills/marketing/sales-enablement.md"
+    },
+    {
+      "name": "schema-markup",
+      "description": "Add, fix, and optimize schema markup and structured data (JSON-LD) for rich snippets and Google rich results",
+      "category": "marketing",
+      "tags": ["schema", "structured-data", "json-ld", "rich-snippets", "seo"],
+      "path": "skills/marketing/schema-markup.md"
     },
     {
       "name": "seo-audit",
       "description": "Comprehensive technical and on-page SEO audit with prioritized action items",
       "category": "marketing",
-      "tags": [
-        "seo",
-        "audit",
-        "technical-seo",
-        "on-page",
-        "core-web-vitals"
-      ],
+      "tags": ["seo", "audit", "technical-seo", "on-page", "core-web-vitals"],
       "path": "skills/marketing/seo-audit.md"
+    },
+    {
+      "name": "signup-flow-cro",
+      "description": "Optimize signup, registration, account creation, and trial activation flows to reduce friction and increase completions",
+      "category": "marketing",
+      "tags": ["signup", "registration", "cro", "onboarding", "conversion"],
+      "path": "skills/marketing/signup-flow-cro.md"
+    },
+    {
+      "name": "site-architecture",
+      "description": "Plan website structure — page hierarchy, navigation, URL patterns, breadcrumbs, and internal linking strategy",
+      "category": "marketing",
+      "tags": ["site-architecture", "information-architecture", "navigation", "urls", "internal-linking"],
+      "path": "skills/marketing/site-architecture.md"
     },
     {
       "name": "social-content",
       "description": "Social media content creator for LinkedIn, Twitter/X, and Instagram with platform-specific optimization",
       "category": "marketing",
-      "tags": [
-        "social-media",
-        "linkedin",
-        "twitter",
-        "instagram",
-        "content-repurposing"
-      ],
+      "tags": ["social-media", "linkedin", "twitter", "instagram", "content-repurposing"],
       "path": "skills/marketing/social-content.md"
     },
     {
       "name": "document-analyzer",
       "description": "Analyze PDFs and documents to extract key information, summarize, and identify action items",
       "category": "productivity",
-      "tags": [
-        "documents",
-        "pdf",
-        "analysis",
-        "summary",
-        "extraction"
-      ],
+      "tags": ["documents", "pdf", "analysis", "summary", "extraction"],
       "path": "skills/productivity/document-analyzer.md"
     },
     {
       "name": "email-writer",
       "description": "Compose professional emails for cold outreach, follow-ups, negotiations, and updates",
       "category": "productivity",
-      "tags": [
-        "email",
-        "communication",
-        "writing",
-        "outreach",
-        "business"
-      ],
+      "tags": ["email", "communication", "writing", "outreach", "business"],
       "path": "skills/productivity/email-writer.md"
     },
     {
       "name": "meeting-notes",
       "description": "Process raw meeting notes or transcripts into structured summaries with action items",
       "category": "productivity",
-      "tags": [
-        "meetings",
-        "notes",
-        "action-items",
-        "summaries",
-        "transcripts"
-      ],
+      "tags": ["meetings", "notes", "action-items", "summaries", "transcripts"],
       "path": "skills/productivity/meeting-notes.md"
     },
     {
       "name": "ppt-generator",
       "description": "Generate professional PowerPoint presentations using pptxgenjs with Bain consulting style",
       "category": "productivity",
-      "tags": [
-        "powerpoint",
-        "presentations",
-        "consulting",
-        "charts",
-        "pptxgenjs"
-      ],
+      "tags": ["powerpoint", "presentations", "consulting", "charts", "pptxgenjs"],
       "path": "skills/productivity/ppt-generator.md"
     },
     {
       "name": "project-planner",
       "description": "Break down projects into milestones, tasks, dependencies, and timeline estimates",
       "category": "productivity",
-      "tags": [
-        "project-management",
-        "planning",
-        "milestones",
-        "gantt",
-        "estimation"
-      ],
+      "tags": ["project-management", "planning", "milestones", "gantt", "estimation"],
       "path": "skills/productivity/project-planner.md"
+    },
+    {
+      "name": "sparc-analyzer",
+      "description": "SPARC Analyzer mode — analyze codebases, architecture, and systems for patterns, issues, and improvements",
+      "category": "sparc",
+      "tags": ["sparc", "analyzer", "codebase", "architecture", "patterns"],
+      "path": "skills/sparc/analyzer.md"
+    },
+    {
+      "name": "sparc-architect",
+      "description": "SPARC Architect mode — design system architecture, component relationships, and technical blueprints",
+      "category": "sparc",
+      "tags": ["sparc", "architect", "system-design", "architecture", "blueprints"],
+      "path": "skills/sparc/architect.md"
+    },
+    {
+      "name": "sparc-ask",
+      "description": "SPARC Ask mode — task-formulation guide that helps navigate, ask, and delegate tasks to the correct SPARC mode",
+      "category": "sparc",
+      "tags": ["sparc", "ask", "task-formulation", "delegation", "guidance"],
+      "path": "skills/sparc/ask.md"
+    },
+    {
+      "name": "sparc-batch-executor",
+      "description": "SPARC Batch Executor — run multiple SPARC tasks in sequence or parallel for large-scale implementations",
+      "category": "sparc",
+      "tags": ["sparc", "batch", "parallel", "execution", "automation"],
+      "path": "skills/sparc/batch-executor.md"
+    },
+    {
+      "name": "sparc-code",
+      "description": "SPARC Auto-Coder — write clean, efficient, modular code from pseudocode and architecture specs",
+      "category": "sparc",
+      "tags": ["sparc", "coding", "implementation", "clean-code", "modular"],
+      "path": "skills/sparc/code.md"
+    },
+    {
+      "name": "sparc-coder",
+      "description": "SPARC Coder mode — implementation specialist for writing production-ready code with TDD practices",
+      "category": "sparc",
+      "tags": ["sparc", "coder", "tdd", "implementation", "production"],
+      "path": "skills/sparc/coder.md"
+    },
+    {
+      "name": "sparc-debug",
+      "description": "SPARC Debugger — troubleshoot runtime bugs, logic errors, and integration failures by tracing and inspecting",
+      "category": "sparc",
+      "tags": ["sparc", "debug", "troubleshooting", "bugs", "tracing"],
+      "path": "skills/sparc/debug.md"
+    },
+    {
+      "name": "sparc-debugger",
+      "description": "SPARC Debugger mode — systematic debugging with root cause analysis and fix verification",
+      "category": "sparc",
+      "tags": ["sparc", "debugger", "root-cause", "diagnosis", "fixes"],
+      "path": "skills/sparc/debugger.md"
+    },
+    {
+      "name": "sparc-designer",
+      "description": "SPARC Designer mode — UI/UX design, component design, and design system creation",
+      "category": "sparc",
+      "tags": ["sparc", "designer", "ui-ux", "components", "design-system"],
+      "path": "skills/sparc/designer.md"
+    },
+    {
+      "name": "sparc-devops",
+      "description": "SPARC DevOps mode — deployment automation, infrastructure as code, and CI/CD pipeline management",
+      "category": "sparc",
+      "tags": ["sparc", "devops", "deployment", "infrastructure", "ci-cd"],
+      "path": "skills/sparc/devops.md"
+    },
+    {
+      "name": "sparc-docs-writer",
+      "description": "SPARC Documentation Writer — write concise, clear Markdown documentation for APIs, integrations, and usage",
+      "category": "sparc",
+      "tags": ["sparc", "documentation", "markdown", "api-docs", "technical-writing"],
+      "path": "skills/sparc/docs-writer.md"
+    },
+    {
+      "name": "sparc-documenter",
+      "description": "SPARC Documenter mode — comprehensive documentation generation from code and specs",
+      "category": "sparc",
+      "tags": ["sparc", "documenter", "documentation", "code-docs", "generation"],
+      "path": "skills/sparc/documenter.md"
+    },
+    {
+      "name": "sparc-innovator",
+      "description": "SPARC Innovator mode — generate novel solutions, creative approaches, and experimental implementations",
+      "category": "sparc",
+      "tags": ["sparc", "innovator", "creativity", "solutions", "experimental"],
+      "path": "skills/sparc/innovator.md"
+    },
+    {
+      "name": "sparc-integration",
+      "description": "SPARC System Integrator — merge outputs from all modes into a working, tested, production-ready system",
+      "category": "sparc",
+      "tags": ["sparc", "integration", "system", "production", "testing"],
+      "path": "skills/sparc/integration.md"
+    },
+    {
+      "name": "sparc-mcp",
+      "description": "SPARC MCP Integration — connect to and orchestrate MCP servers, tools, and external service integrations",
+      "category": "sparc",
+      "tags": ["sparc", "mcp", "integrations", "tools", "servers"],
+      "path": "skills/sparc/mcp.md"
+    },
+    {
+      "name": "sparc-memory-manager",
+      "description": "SPARC Memory Manager — manage persistent context, session memory, and cross-agent knowledge sharing",
+      "category": "sparc",
+      "tags": ["sparc", "memory", "context", "persistence", "knowledge"],
+      "path": "skills/sparc/memory-manager.md"
+    },
+    {
+      "name": "sparc-optimizer",
+      "description": "SPARC Optimizer mode — refactor, modularize, and improve system performance and code quality",
+      "category": "sparc",
+      "tags": ["sparc", "optimizer", "refactoring", "performance", "modular"],
+      "path": "skills/sparc/optimizer.md"
+    },
+    {
+      "name": "sparc-orchestrator",
+      "description": "SPARC Orchestrator — coordinate complex multi-step workflows across all SPARC specialist modes",
+      "category": "sparc",
+      "tags": ["sparc", "orchestrator", "workflow", "coordination", "multi-agent"],
+      "path": "skills/sparc/orchestrator.md"
+    },
+    {
+      "name": "sparc-post-deployment-monitor",
+      "description": "SPARC Deployment Monitor — observe post-launch system performance, logs, and user feedback",
+      "category": "sparc",
+      "tags": ["sparc", "monitoring", "post-deployment", "performance", "observability"],
+      "path": "skills/sparc/post-deployment-monitoring-mode.md"
+    },
+    {
+      "name": "sparc-refinement",
+      "description": "SPARC Optimizer/Refinement mode — clean up code, enforce file limits, remove duplication, and optimize",
+      "category": "sparc",
+      "tags": ["sparc", "refinement", "cleanup", "optimization", "quality"],
+      "path": "skills/sparc/refinement-optimization-mode.md"
+    },
+    {
+      "name": "sparc-researcher",
+      "description": "SPARC Researcher mode — deep research, technology evaluation, and information gathering",
+      "category": "sparc",
+      "tags": ["sparc", "researcher", "research", "evaluation", "information"],
+      "path": "skills/sparc/researcher.md"
+    },
+    {
+      "name": "sparc-reviewer",
+      "description": "SPARC Reviewer mode — code review, quality assurance, and standards compliance checking",
+      "category": "sparc",
+      "tags": ["sparc", "reviewer", "code-review", "quality", "standards"],
+      "path": "skills/sparc/reviewer.md"
+    },
+    {
+      "name": "sparc-security-review",
+      "description": "SPARC Security Reviewer — static and dynamic audits for secrets, vulnerabilities, and insecure patterns",
+      "category": "sparc",
+      "tags": ["sparc", "security", "audit", "vulnerabilities", "secrets"],
+      "path": "skills/sparc/security-review.md"
+    },
+    {
+      "name": "sparc-modes",
+      "description": "SPARC Modes overview — guide to all available SPARC specialist modes and when to use each",
+      "category": "sparc",
+      "tags": ["sparc", "modes", "overview", "guide", "reference"],
+      "path": "skills/sparc/sparc-modes.md"
+    },
+    {
+      "name": "sparc",
+      "description": "SPARC Orchestrator — break down large objectives into delegated subtasks across specialist modes",
+      "category": "sparc",
+      "tags": ["sparc", "orchestrator", "workflow", "delegation", "multi-agent"],
+      "path": "skills/sparc/sparc.md"
+    },
+    {
+      "name": "sparc-spec-pseudocode",
+      "description": "SPARC Specification Writer — capture full project context, requirements, edge cases, and pseudocode",
+      "category": "sparc",
+      "tags": ["sparc", "specification", "pseudocode", "requirements", "planning"],
+      "path": "skills/sparc/spec-pseudocode.md"
+    },
+    {
+      "name": "sparc-supabase-admin",
+      "description": "SPARC Supabase Admin — database design, authentication, storage, and RLS policy implementation",
+      "category": "sparc",
+      "tags": ["sparc", "supabase", "database", "auth", "rls"],
+      "path": "skills/sparc/supabase-admin.md"
+    },
+    {
+      "name": "sparc-swarm-coordinator",
+      "description": "SPARC Swarm Coordinator — orchestrate multi-agent swarms with topology management and task distribution",
+      "category": "sparc",
+      "tags": ["sparc", "swarm", "coordinator", "multi-agent", "topology"],
+      "path": "skills/sparc/swarm-coordinator.md"
+    },
+    {
+      "name": "sparc-tdd",
+      "description": "SPARC TDD mode — test-driven development with red-green-refactor cycle and comprehensive test coverage",
+      "category": "sparc",
+      "tags": ["sparc", "tdd", "testing", "red-green-refactor", "coverage"],
+      "path": "skills/sparc/tdd.md"
+    },
+    {
+      "name": "sparc-tester",
+      "description": "SPARC Tester mode — comprehensive testing strategy, test generation, and quality assurance",
+      "category": "sparc",
+      "tags": ["sparc", "tester", "testing", "quality-assurance", "test-generation"],
+      "path": "skills/sparc/tester.md"
+    },
+    {
+      "name": "sparc-tutorial",
+      "description": "SPARC Tutorial — onboarding and education assistant for learning the SPARC methodology",
+      "category": "sparc",
+      "tags": ["sparc", "tutorial", "learning", "onboarding", "guide"],
+      "path": "skills/sparc/tutorial.md"
+    },
+    {
+      "name": "sparc-workflow-manager",
+      "description": "SPARC Workflow Manager — manage complex multi-phase workflows with checkpoints and rollback",
+      "category": "sparc",
+      "tags": ["sparc", "workflow", "phases", "checkpoints", "management"],
+      "path": "skills/sparc/workflow-manager.md"
     },
     {
       "name": "system-optimize",
       "description": "Windows system performance optimizer — disk, services, startup, power, memory, network, privacy",
       "category": "system",
-      "tags": [
-        "windows",
-        "optimization",
-        "performance",
-        "cleanup",
-        "system-tune"
-      ],
+      "tags": ["windows", "optimization", "performance", "cleanup", "system-tune"],
       "path": "skills/system/system-optimize.md"
+    },
+    {
+      "name": "claude-flow-help",
+      "description": "Claude Flow command reference — swarm init, agent management, memory, hooks, and session commands",
+      "category": "tools",
+      "tags": ["claude-flow", "swarm", "agents", "commands", "reference"],
+      "path": "skills/tools/claude-flow-help.md"
+    },
+    {
+      "name": "claude-flow-memory",
+      "description": "Claude Flow memory system — store, search, retrieve, and manage persistent agent memory with AgentDB",
+      "category": "tools",
+      "tags": ["claude-flow", "memory", "agentdb", "persistence", "vector-search"],
+      "path": "skills/tools/claude-flow-memory.md"
+    },
+    {
+      "name": "claude-flow-swarm",
+      "description": "Claude Flow swarm coordination — initialize, configure, and manage multi-agent swarms",
+      "category": "tools",
+      "tags": ["claude-flow", "swarm", "multi-agent", "coordination", "topology"],
+      "path": "skills/tools/claude-flow-swarm.md"
+    },
+    {
+      "name": "nano-banana",
+      "description": "Generate and edit images using Gemini via OpenRouter — text-to-image, image editing, and multi-turn iteration",
+      "category": "tools",
+      "tags": ["image-generation", "gemini", "openrouter", "text-to-image", "ai-art"],
+      "path": "skills/tools/nano-banana.md"
+    },
+    {
+      "name": "ads",
+      "description": "Comprehensive paid advertising audit and optimization across Google, Meta, LinkedIn, TikTok, and Microsoft Ads",
+      "category": "advertising",
+      "tags": ["advertising", "audit", "google-ads", "meta-ads", "ppc"],
+      "path": "skills/advertising/ads.md"
+    },
+    {
+      "name": "ads-apple",
+      "description": "Apple Search Ads deep analysis — campaign structure, bid health, Creative Sets, MMP attribution, and TAP coverage",
+      "category": "advertising",
+      "tags": ["apple-search-ads", "asa", "mobile-ads", "ios", "mmp"],
+      "path": "skills/advertising/ads-apple.md"
+    },
+    {
+      "name": "ads-audit",
+      "description": "Full multi-platform paid advertising audit with parallel analysis across all major ad platforms",
+      "category": "advertising",
+      "tags": ["advertising", "audit", "multi-platform", "ppc", "optimization"],
+      "path": "skills/advertising/ads-audit.md"
+    },
+    {
+      "name": "ads-budget",
+      "description": "Budget allocation and bidding strategy review — spend distribution, scaling readiness, and kill/scale decisions",
+      "category": "advertising",
+      "tags": ["advertising", "budget", "bidding", "roas", "scaling"],
+      "path": "skills/advertising/ads-budget.md"
+    },
+    {
+      "name": "ads-competitor",
+      "description": "Competitor ad intelligence — analyze competitor copy, creative strategy, keyword targeting, and estimated spend",
+      "category": "advertising",
+      "tags": ["advertising", "competitor-analysis", "ad-copy", "keywords", "intelligence"],
+      "path": "skills/advertising/ads-competitor.md"
+    },
+    {
+      "name": "ads-create",
+      "description": "Campaign concept and copy brief generator — messaging pillars, creative direction, and copy briefs by platform",
+      "category": "advertising",
+      "tags": ["advertising", "campaign-creation", "copy-brief", "creative-direction", "strategy"],
+      "path": "skills/advertising/ads-create.md"
+    },
+    {
+      "name": "ads-creative",
+      "description": "Cross-platform creative quality audit — ad copy, video, image, format diversity, fatigue signals, and compliance",
+      "category": "advertising",
+      "tags": ["advertising", "creative", "ad-copy", "video", "format-compliance"],
+      "path": "skills/advertising/ads-creative.md"
+    },
+    {
+      "name": "ads-dna",
+      "description": "Brand DNA extractor — scan a website to extract visual identity, tone, color palette, and imagery style",
+      "category": "advertising",
+      "tags": ["advertising", "brand-dna", "brand-identity", "tone-of-voice", "visual-identity"],
+      "path": "skills/advertising/ads-dna.md"
+    },
+    {
+      "name": "ads-generate",
+      "description": "AI image generation for paid ad creatives — platform-sized ad images using Gemini or configured provider",
+      "category": "advertising",
+      "tags": ["advertising", "image-generation", "ai-creative", "ad-images", "gemini"],
+      "path": "skills/advertising/ads-generate.md"
+    },
+    {
+      "name": "ads-google",
+      "description": "Google Ads deep analysis — 74 checks across Search, PMax, Display, YouTube, conversion tracking, and wasted spend",
+      "category": "advertising",
+      "tags": ["google-ads", "ppc", "pmax", "search-ads", "conversion-tracking"],
+      "path": "skills/advertising/ads-google.md"
+    },
+    {
+      "name": "ads-landing",
+      "description": "Landing page quality assessment — message match, page speed, mobile experience, trust signals, and CRO potential",
+      "category": "advertising",
+      "tags": ["landing-page", "cro", "page-speed", "mobile", "conversion"],
+      "path": "skills/advertising/ads-landing.md"
+    },
+    {
+      "name": "ads-linkedin",
+      "description": "LinkedIn Ads deep analysis — 25 checks across targeting, creative, lead gen forms, bidding, and ABM",
+      "category": "advertising",
+      "tags": ["linkedin-ads", "b2b-advertising", "lead-gen-forms", "abm", "targeting"],
+      "path": "skills/advertising/ads-linkedin.md"
+    },
+    {
+      "name": "ads-meta",
+      "description": "Meta Ads deep analysis — 46 checks across Pixel/CAPI, creative diversity, account structure, and Advantage+",
+      "category": "advertising",
+      "tags": ["meta-ads", "facebook-ads", "instagram-ads", "pixel", "advantage-plus"],
+      "path": "skills/advertising/ads-meta.md"
+    },
+    {
+      "name": "ads-microsoft",
+      "description": "Microsoft/Bing Ads deep analysis — search, PMax, Audience Network, and Copilot integration with Google import validation",
+      "category": "advertising",
+      "tags": ["microsoft-ads", "bing-ads", "ppc", "audience-network", "copilot"],
+      "path": "skills/advertising/ads-microsoft.md"
+    },
+    {
+      "name": "ads-photoshoot",
+      "description": "Product photography enhancement — generate 5 professional photography styles for ad use with AI image generation",
+      "category": "advertising",
+      "tags": ["product-photography", "ai-images", "ad-creative", "studio", "lifestyle"],
+      "path": "skills/advertising/ads-photoshoot.md"
+    },
+    {
+      "name": "ads-plan",
+      "description": "Strategic paid advertising planning — platform selection, campaign architecture, budget planning, and roadmap",
+      "category": "advertising",
+      "tags": ["advertising", "planning", "strategy", "budget", "campaign-architecture"],
+      "path": "skills/advertising/ads-plan.md"
+    },
+    {
+      "name": "ads-tiktok",
+      "description": "TikTok Ads deep analysis — 25 checks on creative quality, tracking, bidding, Smart+, and TikTok Shop",
+      "category": "advertising",
+      "tags": ["tiktok-ads", "short-video", "smart-plus", "creative", "tiktok-shop"],
+      "path": "skills/advertising/ads-tiktok.md"
+    },
+    {
+      "name": "ads-youtube",
+      "description": "YouTube Ads analysis — skippable, non-skippable, bumper, Shorts, Demand Gen formats with audience and measurement",
+      "category": "advertising",
+      "tags": ["youtube-ads", "video-ads", "demand-gen", "shorts", "bumper-ads"],
+      "path": "skills/advertising/ads-youtube.md"
+    },
+    {
+      "name": "agentdb-advanced",
+      "description": "Master advanced AgentDB features — QUIC sync, multi-database management, custom distance metrics, and hybrid search",
+      "category": "ai-agents",
+      "tags": ["agentdb", "vector-database", "quic", "hybrid-search", "distributed"],
+      "path": "skills/ai-agents/agentdb-advanced.md"
+    },
+    {
+      "name": "agentdb-learning",
+      "description": "Create and train AI learning plugins with AgentDB's 9 reinforcement learning algorithms including Q-Learning and Actor-Critic",
+      "category": "ai-agents",
+      "tags": ["agentdb", "reinforcement-learning", "q-learning", "actor-critic", "self-learning"],
+      "path": "skills/ai-agents/agentdb-learning.md"
+    },
+    {
+      "name": "agentdb-memory-patterns",
+      "description": "Implement persistent memory patterns for AI agents — session memory, long-term storage, and context management",
+      "category": "ai-agents",
+      "tags": ["agentdb", "memory", "persistence", "context", "patterns"],
+      "path": "skills/ai-agents/agentdb-memory-patterns.md"
+    },
+    {
+      "name": "agentdb-optimization",
+      "description": "Optimize AgentDB performance with quantization (4-32x memory reduction) and HNSW indexing (150x faster search)",
+      "category": "ai-agents",
+      "tags": ["agentdb", "optimization", "quantization", "hnsw", "performance"],
+      "path": "skills/ai-agents/agentdb-optimization.md"
+    },
+    {
+      "name": "agentdb-vector-search",
+      "description": "Implement semantic vector search with AgentDB for intelligent document retrieval and context-aware querying",
+      "category": "ai-agents",
+      "tags": ["agentdb", "vector-search", "semantic-search", "rag", "embeddings"],
+      "path": "skills/ai-agents/agentdb-vector-search.md"
+    },
+    {
+      "name": "reasoningbank-agentdb",
+      "description": "Implement ReasoningBank adaptive learning with AgentDB — trajectory tracking, verdict judgment, and pattern recognition",
+      "category": "ai-agents",
+      "tags": ["reasoningbank", "agentdb", "adaptive-learning", "trajectories", "patterns"],
+      "path": "skills/ai-agents/reasoningbank-agentdb.md"
+    },
+    {
+      "name": "reasoningbank-intelligence",
+      "description": "Adaptive learning with ReasoningBank — pattern recognition, strategy optimization, and meta-cognitive systems",
+      "category": "ai-agents",
+      "tags": ["reasoningbank", "adaptive-learning", "pattern-recognition", "meta-cognitive", "optimization"],
+      "path": "skills/ai-agents/reasoningbank-intelligence.md"
+    },
+    {
+      "name": "swarm-advanced",
+      "description": "Advanced swarm orchestration patterns for research, development, testing, and complex distributed workflows",
+      "category": "ai-agents",
+      "tags": ["swarm", "orchestration", "multi-agent", "distributed", "patterns"],
+      "path": "skills/ai-agents/swarm-advanced.md"
+    },
+    {
+      "name": "swarm-orchestration",
+      "description": "Orchestrate multi-agent swarms with agentic-flow — parallel execution, dynamic topology, and intelligent coordination",
+      "category": "ai-agents",
+      "tags": ["swarm", "multi-agent", "topology", "parallel", "coordination"],
+      "path": "skills/ai-agents/swarm-orchestration.md"
+    },
+    {
+      "name": "verification-quality",
+      "description": "Truth scoring, code quality verification, and automatic rollback with 0.95 accuracy threshold for agent outputs",
+      "category": "ai-agents",
+      "tags": ["verification", "quality", "truth-score", "rollback", "accuracy"],
+      "path": "skills/ai-agents/verification-quality.md"
     }
   ],
   "packs": [
     {
       "name": "marketing",
-      "description": "All marketing skills — SEO, copy, ads, email, social, CRO",
-      "skills": [
-        "ad-creative",
-        "competitor-analysis",
-        "content-strategy",
-        "copywriting",
-        "email-sequence",
-        "landing-page-cro",
-        "launch-strategy",
-        "pricing-strategy",
-        "seo-audit",
-        "social-content"
-      ]
+      "description": "All marketing skills — SEO, copy, ads, email, CRO, analytics, social, and growth",
+      "skills": ["ab-test-setup", "ad-creative", "ai-seo", "analytics-tracking", "churn-prevention", "cold-email", "competitor-alternatives", "competitor-analysis", "content-strategy", "copy-editing", "copywriting", "email-sequence", "form-cro", "free-tool-strategy", "landing-page-cro", "launch-strategy", "lead-magnets", "marketing-ideas", "marketing-psychology", "onboarding-cro", "page-cro", "paid-ads", "paywall-upgrade-cro", "popup-cro", "pricing-strategy", "product-marketing-context", "programmatic-seo", "referral-program", "revops", "sales-enablement", "schema-markup", "seo-audit", "signup-flow-cro", "site-architecture", "social-content"]
+    },
+    {
+      "name": "advertising",
+      "description": "All advertising skills — Google, Meta, LinkedIn, TikTok, Microsoft, Apple, YouTube, creative, and planning",
+      "skills": ["ads", "ads-apple", "ads-audit", "ads-budget", "ads-competitor", "ads-create", "ads-creative", "ads-dna", "ads-generate", "ads-google", "ads-landing", "ads-linkedin", "ads-meta", "ads-microsoft", "ads-photoshoot", "ads-plan", "ads-tiktok", "ads-youtube"]
     },
     {
       "name": "development",
-      "description": "All development skills — code review, TDD, security, debugging",
-      "skills": [
-        "api-design",
-        "code-review",
-        "debug",
-        "docker-setup",
-        "git-cleanup",
-        "performance-audit",
-        "refactor",
-        "security-scan",
-        "tdd-london",
-        "typescript-migrate"
-      ]
+      "description": "All development skills — code review, TDD, security, debugging, GitHub, pair programming, and more",
+      "skills": ["api-design", "browser-automation", "code-review", "debug", "docker-setup", "git-cleanup", "github-code-review", "github-multi-repo", "github-project-management", "github-release-management", "github-workflow-automation", "hooks-automation", "pair-programming", "performance-audit", "refactor", "security-scan", "skill-builder", "sparc-methodology", "stream-chain", "tdd-london", "typescript-migrate"]
+    },
+    {
+      "name": "github",
+      "description": "All GitHub skills — PR management, code review, issue tracking, release automation, and swarm workflows",
+      "skills": ["code-review-swarm", "github-code-review", "github-modes", "github-swarm", "issue-tracker", "issue-triage", "multi-repo-swarm", "pr-enhance", "pr-manager", "project-board-sync", "release-manager", "release-swarm", "repo-analyze", "repo-architect", "swarm-issue", "swarm-pr", "sync-coordinator", "workflow-automation"]
+    },
+    {
+      "name": "sparc",
+      "description": "All SPARC methodology skills — orchestrator, coder, architect, debugger, tester, security, and all specialist modes",
+      "skills": ["sparc", "sparc-analyzer", "sparc-architect", "sparc-ask", "sparc-batch-executor", "sparc-code", "sparc-coder", "sparc-debug", "sparc-debugger", "sparc-designer", "sparc-devops", "sparc-docs-writer", "sparc-documenter", "sparc-innovator", "sparc-integration", "sparc-mcp", "sparc-memory-manager", "sparc-modes", "sparc-optimizer", "sparc-orchestrator", "sparc-post-deployment-monitor", "sparc-refinement", "sparc-researcher", "sparc-reviewer", "sparc-security-review", "sparc-spec-pseudocode", "sparc-supabase-admin", "sparc-swarm-coordinator", "sparc-tdd", "sparc-tester", "sparc-tutorial", "sparc-workflow-manager"]
+    },
+    {
+      "name": "ai-agents",
+      "description": "All AI agent skills — AgentDB, ReasoningBank, swarm orchestration, and verification",
+      "skills": ["agentdb-advanced", "agentdb-learning", "agentdb-memory-patterns", "agentdb-optimization", "agentdb-vector-search", "reasoningbank-agentdb", "reasoningbank-intelligence", "swarm-advanced", "swarm-orchestration", "verification-quality"]
     },
     {
       "name": "productivity",
       "description": "All productivity skills — PPT, emails, planning, documents",
-      "skills": [
-        "document-analyzer",
-        "email-writer",
-        "meeting-notes",
-        "ppt-generator",
-        "project-planner"
-      ]
+      "skills": ["document-analyzer", "email-writer", "meeting-notes", "ppt-generator", "project-planner"]
     },
     {
       "name": "data",
       "description": "All data analysis skills — CSV, SQL, visualization, reports",
-      "skills": [
-        "csv-analyzer",
-        "data-visualizer",
-        "report-builder",
-        "sql-generator"
-      ]
+      "skills": ["csv-analyzer", "data-visualizer", "report-builder", "sql-generator"]
     },
     {
       "name": "design",
       "description": "All design skills — UI review, colors, components",
-      "skills": [
-        "color-palette",
-        "component-library",
-        "ui-review"
-      ]
+      "skills": ["color-palette", "component-library", "ui-review"]
     },
     {
       "name": "devops",
       "description": "All DevOps skills — CI/CD, nginx, monitoring",
-      "skills": [
-        "ci-cd-setup",
-        "monitoring-setup",
-        "nginx-config"
-      ]
+      "skills": ["ci-cd-setup", "monitoring-setup", "nginx-config"]
+    },
+    {
+      "name": "tools",
+      "description": "Utility tools — image generation, Claude Flow commands",
+      "skills": ["claude-flow-help", "claude-flow-memory", "claude-flow-swarm", "nano-banana"]
     },
     {
       "name": "system",
       "description": "System optimization and maintenance skills",
-      "skills": [
-        "system-optimize"
-      ]
+      "skills": ["system-optimize"]
     },
     {
       "name": "all",
       "description": "Every skill in the catalog",
-      "skills": [
-        "csv-analyzer",
-        "data-visualizer",
-        "report-builder",
-        "sql-generator",
-        "color-palette",
-        "component-library",
-        "ui-review",
-        "api-design",
-        "code-review",
-        "debug",
-        "docker-setup",
-        "git-cleanup",
-        "performance-audit",
-        "refactor",
-        "security-scan",
-        "tdd-london",
-        "typescript-migrate",
-        "ci-cd-setup",
-        "monitoring-setup",
-        "nginx-config",
-        "ad-creative",
-        "competitor-analysis",
-        "content-strategy",
-        "copywriting",
-        "email-sequence",
-        "landing-page-cro",
-        "launch-strategy",
-        "pricing-strategy",
-        "seo-audit",
-        "social-content",
-        "document-analyzer",
-        "email-writer",
-        "meeting-notes",
-        "ppt-generator",
-        "project-planner",
-        "system-optimize"
-      ]
+      "skills": ["csv-analyzer", "data-visualizer", "report-builder", "sql-generator", "color-palette", "component-library", "ui-review", "api-design", "browser-automation", "code-review", "debug", "docker-setup", "git-cleanup", "github-code-review", "github-multi-repo", "github-project-management", "github-release-management", "github-workflow-automation", "hooks-automation", "pair-programming", "performance-audit", "refactor", "security-scan", "skill-builder", "sparc-methodology", "stream-chain", "tdd-london", "typescript-migrate", "ci-cd-setup", "monitoring-setup", "nginx-config", "code-review-swarm", "github-code-review", "github-modes", "github-swarm", "issue-tracker", "issue-triage", "multi-repo-swarm", "pr-enhance", "pr-manager", "project-board-sync", "release-manager", "release-swarm", "repo-analyze", "repo-architect", "swarm-issue", "swarm-pr", "sync-coordinator", "workflow-automation", "ab-test-setup", "ad-creative", "ai-seo", "analytics-tracking", "churn-prevention", "cold-email", "competitor-alternatives", "competitor-analysis", "content-strategy", "copy-editing", "copywriting", "email-sequence", "form-cro", "free-tool-strategy", "landing-page-cro", "launch-strategy", "lead-magnets", "marketing-ideas", "marketing-psychology", "onboarding-cro", "page-cro", "paid-ads", "paywall-upgrade-cro", "popup-cro", "pricing-strategy", "product-marketing-context", "programmatic-seo", "referral-program", "revops", "sales-enablement", "schema-markup", "seo-audit", "signup-flow-cro", "site-architecture", "social-content", "document-analyzer", "email-writer", "meeting-notes", "ppt-generator", "project-planner", "sparc", "sparc-analyzer", "sparc-architect", "sparc-ask", "sparc-batch-executor", "sparc-code", "sparc-coder", "sparc-debug", "sparc-debugger", "sparc-designer", "sparc-devops", "sparc-docs-writer", "sparc-documenter", "sparc-innovator", "sparc-integration", "sparc-mcp", "sparc-memory-manager", "sparc-modes", "sparc-optimizer", "sparc-orchestrator", "sparc-post-deployment-monitor", "sparc-refinement", "sparc-researcher", "sparc-reviewer", "sparc-security-review", "sparc-spec-pseudocode", "sparc-supabase-admin", "sparc-swarm-coordinator", "sparc-tdd", "sparc-tester", "sparc-tutorial", "sparc-workflow-manager", "system-optimize", "claude-flow-help", "claude-flow-memory", "claude-flow-swarm", "nano-banana", "ads", "ads-apple", "ads-audit", "ads-budget", "ads-competitor", "ads-create", "ads-creative", "ads-dna", "ads-generate", "ads-google", "ads-landing", "ads-linkedin", "ads-meta", "ads-microsoft", "ads-photoshoot", "ads-plan", "ads-tiktok", "ads-youtube", "agentdb-advanced", "agentdb-learning", "agentdb-memory-patterns", "agentdb-optimization", "agentdb-vector-search", "reasoningbank-agentdb", "reasoningbank-intelligence", "swarm-advanced", "swarm-orchestration", "verification-quality"]
     }
   ]
 }
