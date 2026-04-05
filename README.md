@@ -307,7 +307,7 @@ cp claude-skills/skills/marketing/seo-audit.md ~/.claude/commands/
 Or download individual files:
 ```bash
 curl -o ~/.claude/commands/seo-audit.md \
-  https://raw.githubusercontent.com/asinadarsh/claude-skills/main/skills/marketing/seo-audit.md
+  https://raw.githubusercontent.com/asinadarsh/claude-skills/master/skills/marketing/seo-audit.md
 ```
 
 ---

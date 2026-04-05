@@ -8,12 +8,17 @@ Thanks for wanting to contribute! Here's how to add your own skills.
 
 | Category | Directory | What belongs here |
 |----------|-----------|-------------------|
-| Marketing | `skills/marketing/` | SEO, copywriting, ads, email, social, CRO |
-| Development | `skills/development/` | Code quality, testing, debugging, tooling |
+| Marketing | `skills/marketing/` | SEO, copywriting, email, social, CRO, analytics, growth |
+| Advertising | `skills/advertising/` | Google Ads, Meta, LinkedIn, TikTok, Microsoft, YouTube, Apple |
+| Development | `skills/development/` | Code quality, testing, debugging, GitHub integrations, tooling |
+| GitHub | `skills/github/` | PR management, issue tracking, release automation, swarm workflows |
+| SPARC | `skills/sparc/` | SPARC methodology modes — architect, coder, debugger, tester, etc. |
+| AI Agents | `skills/ai-agents/` | AgentDB, ReasoningBank, swarm orchestration, verification |
 | Productivity | `skills/productivity/` | Documents, presentations, planning, communication |
 | Data Analysis | `skills/data-analysis/` | CSV, SQL, visualization, reporting |
 | Design | `skills/design/` | UI/UX, colors, components, accessibility |
 | DevOps | `skills/devops/` | CI/CD, Docker, monitoring, infrastructure |
+| Tools | `skills/tools/` | Utility tools — image generation, Claude Flow helpers |
 | System | `skills/system/` | OS optimization, performance tuning, cleanup, maintenance |
 
 Need a new category? Open an issue first.
