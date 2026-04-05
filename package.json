@@ -1,7 +1,7 @@
 {
   "name": "claude-skills",
-  "version": "1.0.0",
-  "description": "50+ plug-and-play skills for Claude Code. Install in one command.",
+  "version": "2.0.0",
+  "description": "154+ plug-and-play skills for Claude Code. Install in one command.",
   "main": "cli/index.js",
   "bin": {
     "claude-skills": "cli/index.js"
@@ -14,6 +14,10 @@
     "cli",
     "developer-tools",
     "marketing",
+    "advertising",
+    "ai-agents",
+    "sparc",
+    "github",
     "seo",
     "code-review",
     "productivity"

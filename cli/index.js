@@ -6,7 +6,7 @@ const path = require("path");
 const { execSync } = require("child_process");
 
 const REPO = "asinadarsh/claude-skills";
-const BRANCH = "main";
+const BRANCH = "master";
 const BASE_URL = `https://raw.githubusercontent.com/${REPO}/${BRANCH}`;
 const CATALOG_URL = `${BASE_URL}/catalog.json`;
 
@@ -169,7 +169,7 @@ async function main() {
   const cmd = args[0];
   const target = args.slice(1).join(" ");
 
-  log(`\n${c.bold}${c.red}⚡ Claude Skills${c.r} ${c.dim}v1.0.0${c.r}\n`);
+  log(`\n${c.bold}${c.red}⚡ Claude Skills${c.r} ${c.dim}v2.0.0${c.r}\n`);
 
   if (!cmd || cmd === "help" || cmd === "--help") {
     log(`${c.bold}Usage:${c.r}`);
