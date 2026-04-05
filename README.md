@@ -304,11 +304,6 @@ git clone https://github.com/asinadarsh/claude-skills.git
 cp claude-skills/skills/marketing/seo-audit.md ~/.claude/commands/
 ```
 
-Or download individual files:
-```bash
-curl -o ~/.claude/commands/seo-audit.md \
-  https://raw.githubusercontent.com/asinadarsh/claude-skills/master/skills/marketing/seo-audit.md
-```
 
 ---
 
